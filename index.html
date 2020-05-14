@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html>
+<title>Austin Wu Portfolio</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.w3-row-padding img {margin-bottom: 12px}
+.w3-sidebar {width: 120px;background: #6bf1f9;}
+
+@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+</style>
+<body class="w3-cyan">
+
+<!-- Icon Bar (Sidebar - hidden on small screens) -->
+<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+  <!-- Avatar image in top left corner -->
+  <img src="imgs/Cover.jpeg" style="width:100%">                    
+  <a href="#" class="w3-bar-item w3-button w3-padding-large w3-DarkTurquoise ">
+    <i class="fa fa-home w3-xxlarge"></i>
+    <p>HOME</p>
+  </a>
+  <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-Gainsboro ">
+    <i class="fa fa-user w3-xxlarge"></i>
+    <p>ABOUT</p>
+  </a>
+  <a href="#projects" class="w3-bar-item w3-button w3-padding-large w3-hover-Gainsboro ">
+    <i class="fa fa-folder-open w3-xxlarge"></i>
+    <p>PROJECTS</p>
+  </a>
+  <a href="#photos" class="w3-bar-item w3-button w3-padding-large w3-hover-Gainsboro">
+    <i class="fa fa-eye w3-xxlarge"></i>
+    <p>PHOTOS</p>
+  </a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-Gainsboro">
+    <i class="fa fa-envelope w3-xxlarge"></i>
+    <p>CONTACT</p>
+  </a>
+</nav>
+
+<!-- Navbar on small screens (Hidden on medium and large screens) -->
+<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+  <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+    <a href="#" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
+    <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">ABOUT</a>
+    <a href="#projects" class="w3-bar-item w3-button" style="width:25% !important">PROJECTS</a>
+    <a href="#photos" class="w3-bar-item w3-button" style="width:25% !important">PHOTOS</a>
+    <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a>
+  </div>
+</div>
+
+<!-- Page Content -->
+<div class="w3-padding-large" id="main">
+  <!-- Header/Home -->
+  <header class="w3-container w3-padding-32 w3-center w3-cyan" id="home">
+    <h1 class="w3-jumbo"><span class="w3-hide-small">Hi, I'm</span> Austin Wu.</h1>
+    <p class="w3-xlarge">Computer Engineering Student</p>
+    <img src="imgs/Cover.jpeg" alt="Cover" class="w3-image" width="1200" height="1100">
+  </header>
+
+  <!-- About Section -->
+  <div class="w3-content w3-justify w3-text-white w3-padding-64" id="about">
+    <!--My background -->
+    <h2 class="w3-text-light-grey">About Me</h2>
+    <hr style="width:300px" class="w3-opacity">
+    <p>Experienced software developer with 4 years of programming experience and 2 years of industry experience. <br>Focusing on Web Development, having a good knowledge of front-end, back-end, and database.</p>
+    <br><br>
+
+    <!-- Education -->
+    <h2 class="w3-text-light-grey">Education</h2>  
+    <hr style="width:300px" class="w3-opacity">
+    <img src="imgs/Education_1.png" alt="Uwaterloo" class="w3-left w3-circle w3-margin-right" style="width:80px">
+    <p><span class="w3-large w3-margin-right">University of Waterloo &emsp; Waterloo, Canada</span></p>
+    <p>Computer Enginnering &emsp; 2015-Present</p><br>
+    
+    
+    <!-- Work_Experience -->
+    <h2 class="w3-text-light-grey">Work Experience</h2>  
+    <hr style="width:300px" class="w3-opacity">
+    <img src="imgs/Work_Term_5.png" alt="DATACLOUD_Networks" class="w3-left w3-circle w3-margin-right" style="width:80px">
+    <p><span class="w3-large w3-margin-right">DATACLOUD Networks  &emsp; Hearst, Canada</span></p>
+    <p>Full Stack Developer  &emsp;  Sept 2019 - Dec 2019</p><br>
+
+    <img src="imgs/Work_Term_4.png" alt="FGF_Brands" class="w3-left w3-circle w3-margin-right" style="width:80px">
+    <p><span class="w3-large w3-margin-right">FGF Brands Inc &emsp; Toronto, Canada</span></p>
+    <p>Web Developer &emsp; Jan 2019 - Apr 2019</p><br>
+    
+    <img src="imgs/Work_Term_2&3.png" alt="IPC" class="w3-left w3-circle w3-margin-right" style="width:80px">
+    <p><span class="w3-large w3-margin-right">Information and Pricacy Commissioner of Ontario &emsp; Toronto, Canada</span></p>
+    <p>Web/Lan Officer &emsp; Sep 2017 - Aug 2018</p><br>
+    
+    <img src="imgs/Work_Term_1.png" alt="West_Corporation" class="w3-left w3-circle w3-margin-right" style="width:80px">
+    <p><span class="w3-large w3-margin-right">West Corporation &emsp; Toronto, Canada</span></p>
+    <p>Web Designer &emsp; Jan 2017 - Apr 2017</p><br>
+    
+     <!-- Skills&Languages -->
+    <h2 class="w3-text-light-grey">Technical Skills</h2>
+    <hr style="width:300px" class="w3-opacity">
+
+    <div class="w3-row-padding">
+      <div class="w3-half">
+      <h3>Programming Languages</h3>
+        <p class="w3-wide">HTML</p>
+        <div class="w3-white">
+          <div class="w3-dark-grey" style="height:10px;width:90%"></div>
+        </div>
+        <p class="w3-wide">CSS</p>
+        <div class="w3-white">
+          <div class="w3-dark-grey" style="height:10px;width:90%"></div>
+        </div>
+        <p class="w3-wide">JavaScript</p>
+        <div class="w3-white">
+          <div class="w3-dark-grey" style="height:10px;width:85%"></div>
+        </div>
+        <p class="w3-wide">SQL</p>
+        <div class="w3-white">
+          <div class="w3-dark-grey" style="height:10px;width:85%"></div>
+        </div>
+        <p class="w3-wide">PHP</p>
+        <div class="w3-white">
+          <div class="w3-dark-grey" style="height:10px;width:90%"></div>
+        </div>
+        <p class="w3-wide">JAVA</p>
+        <div class="w3-white">
+          <div class="w3-dark-grey" style="height:10px;width:90%"></div>
+        </div>
+        <p class="w3-wide">C++</p>
+        <div class="w3-white">
+          <div class="w3-dark-grey" style="height:10px;width:95%"></div>
+        </div>
+        <p class="w3-wide">Python</p>
+        <div class="w3-white">
+          <div class="w3-dark-grey" style="height:10px;width:85%"></div>
+        </div>
+        <p class="w3-wide">VHDL</p>
+        <div class="w3-white">
+          <div class="w3-dark-grey" style="height:10px;width:85%"></div>
+        </div>
+        <p class="w3-wide">Verilog</p>
+        <div class="w3-white">
+          <div class="w3-dark-grey" style="height:10px;width:85%"></div>
+        </div>
+      </div>
+      
+
+      <div class="w3-half">
+        <h3>Technologies</h3>
+        <p class="w3-wide">Bootstrap</p>
+        <div class="w3-white">
+          <div class="w3-dark-grey" style="height:10px;width:90%"></div>
+        </div>
+        <p class="w3-wide">jQuery</p>
+        <div class="w3-white">
+          <div class="w3-dark-grey" style="height:10px;width:85%"></div>
+        </div>
+        <p class="w3-wide">MySQL</p>
+        <div class="w3-white">
+          <div class="w3-dark-grey" style="height:10px;width:95%"></div>
+        </div>
+        <p class="w3-wide">MariaDB</p>
+        <div class="w3-white">
+          <div class="w3-dark-grey" style="height:10px;width:85%"></div>
+        </div>
+        <p class="w3-wide">phpMyAdmin</p>
+        <div class="w3-white">
+          <div class="w3-dark-grey" style="height:10px;width:95%"></div>
+        </div>
+        <p class="w3-wide">Visual Studio Code</p>
+        <div class="w3-white">
+          <div class="w3-dark-grey" style="height:10px;width:85%"></div>
+        </div>
+        <p class="w3-wide">MATLAB</p>
+        <div class="w3-white">
+          <div class="w3-dark-grey" style="height:10px;width:85%"></div>
+        </div>
+        <p class="w3-wide">Photoshop</p>
+        <div class="w3-white">
+          <div class="w3-dark-grey" style="height:10px;width:85%"></div>
+        </div>
+        <p class="w3-wide">Dreamweaver</p>
+        <div class="w3-white">
+          <div class="w3-dark-grey" style="height:10px;width:85%"></div>
+        </div>
+        <p class="w3-wide">MS Office</p>
+        <div class="w3-white">
+          <div class="w3-dark-grey" style="height:10px;width:85%"></div>
+        </div><br><br>
+      </div>
+
+    </div>
+  
+  
+    <!-- My Projects -->
+    <h2 class="w3-text-light-grey" id="projects">My Projects</h2>
+    <hr style="width:300px" class="w3-opacity">
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-half w3-margin-bottom">
+        <ul class="w3-ul w3-white w3-center">
+          <li class="w3-dark-grey w3-xlarge w3-padding-32">Demo</li>
+          <li class="w3-padding-32"><h4>Real-Time Weather App</h4><br>
+            <a href="https://uw-guangyu.github.io/Weather_PWA/index.html" target="_blank"><button class="w3-button w3-light-grey w3-padding-small w3-hover-Gainsboro">Click HERE</button></a>
+          </li>
+          <li class="w3-padding-32"><h4>Social Network System</h4><br>
+            <a href="https://github.com/UW-GuangYu/Social_Network_System" target="_blank"><button class="w3-button w3-light-grey w3-padding-small w3-hover-Gainsboro">Click HERE</button></a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="w3-half">
+        <ul class="w3-ul w3-white w3-center">
+          <li class="w3-dark-grey w3-xlarge w3-padding-32">More Projects</li>
+          <li class="w3-padding-24">Console Application</li>
+          <li class="w3-padding-16">TIva-C Microcontroller</li>
+          <li class="w3-padding-16">Abstract Data Type</li>
+          <li class="w3-padding-16">Electric Circuits</li>
+          <li class="w3-light-grey w3-padding-24">
+          <a href="https://github.com/UW-GuangYu/Projects" target="_blank"><button class="w3-button w3-white w3-padding-large w3-hover-Gainsboro">Click HERE</button></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    
+  <!-- End About Section -->
+  </div>
+        
+
+<div class="w3-center">
+    <a href="Resume_4A.pdf" target="_blank">
+    <button class="w3-button w3-light-grey w3-padding-large w3-section">
+    <i class="fa fa-download"></i> Download Resume
+    </button></a>
+    </div><br>
+      
+
+    
+     <!-- Portfolio Section -->
+    <div class="w3-padding-64 w3-content" id="photos">
+    <h2 class="w3-text-light-grey">My Photos</h2>
+    <hr style="width:200px" class="w3-opacity">
+  
+
+    <!-- Grid for photos -->
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-half">
+        <div class="w3-card-4">
+          <img src="imgs/DATACLOUD.png" style="width:100%">
+          <div class="w3-container w3-center">
+            <p>Worked in a Start Up company in Hearst and learned a lot</p><br>
+          </div>
+        </div>
+
+        <div class="w3-card-4">
+          <img src="imgs/FGF.jpg" style="width:100%">
+          <div class="w3-container w3-center">
+            <p>Joined a big family at FGF Brands Inc</p><br>
+          </div>
+        </div>
+
+        <div class="w3-card-4">
+          <img src="imgs/Engineer.jpg" style="width:100%">
+          <div class="w3-container w3-center">
+            <p>I am proud of being an engineering student</p><br>
+          </div>
+        </div>
+
+        <div class="w3-card-4">
+        <img src="imgs/Loading.gif" style="width:100%">
+        <div class="w3-container w3-center">
+          <p>A loading GIF designed with the style of different desserts</p><br>
+        </div>
+        </div>
+      </div>
+
+
+      <div class="w3-half">
+        <div class="w3-card-4">
+          <img src="imgs/Hearst.png" style="width:100%">
+          <div class="w3-container w3-center">
+            <p>Hearst is a French-speaking town city which left me an unforgettable memory</p>
+          </div>
+        </div>
+
+        <div class="w3-card-4">
+          <img src="imgs/IPC.jpg" class="w3-margin-top" style="width:100%">
+          <div class="w3-container w3-center">
+            <p>Very nice experience working at government company</p><br>
+          </div>
+        </div>
+
+        <div class="w3-card-4">
+          <img src="imgs/LEGO.jpg" style="width:100%">
+          <div class="w3-container w3-center">
+            <p>FIRST Lego League volunteer</p><br>
+          </div>
+        </div>
+
+        <div class="w3-card-4">
+         <img src="imgs/404_logo.png" style="width:100%">
+          <div class="w3-container w3-center">
+            <p>A 404 Error Logo designed with a return link embedded</p><br>
+        </div>
+        </div>
+      </div>
+    <!-- End photo grid -->
+    </div>
+  <!-- End Portfolio Section -->
+  </div>
+
+
+
+  <!-- Contact Section -->
+  <div class="w3-padding-64 w3-content" id="contact">
+    <h2 class="w3-text-light-grey">Contact Me</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <div class="w3-section">
+      <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i>University of Waterloo, Canada</p>
+      <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Phone: Comming Soon</p>
+      <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: wu.guangyu@yahoo.com</p>
+    </div><br>
+    <p>Lets get in touch. Send me a message:</p>
+
+    <form action="info.php" method="post" target="_blank">
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Email" required name="Email"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Subject" required name="Subject"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Message" required name="Message"></p>
+      <p><button class="w3-button w3-light-grey w3-padding-large" type="submit">
+          <i class="fa fa-paper-plane"></i> SEND MESSAGE</button>
+      </p>
+    </form>
+    
+    
+  <!-- End Contact Section -->
+  </div>
+  
+  
+    <!-- Footer -->
+  <footer class="w3-content w3-padding-64 w3-xlarge">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>&nbsp;
+    <i class="fa fa-linkedin w3-hover-opacity"></i>&nbsp; 
+    <i class="fa fa-weixin w3-hover-opacity"></i>&nbsp;
+    <i class="fa fa-qq w3-hover-opacity"></i>
+    <div class="w3-center">
+    <p>--Created by Austin Wu</p>
+    </div>
+  <!-- End footer -->
+  </footer>
+
+<!-- END PAGE CONTENT -->
+</div>
+
+</body>
+</html>
